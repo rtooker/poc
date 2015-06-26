@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m8000001e-4912-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-4912-1563-806e-0a3defa30000.xml#m80000000-4912-1563-806e-0a3defa30000">
-<PresentationColumn mdsid="m8000001f-4912-1563-806e-0a3defa30000" name="ACTIVE_FLG" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000020-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000020-4912-1563-806e-0a3defa30000" name="DATASOURCE_NUM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000021-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000021-4912-1563-806e-0a3defa30000" name="ETL_PROC_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000022-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000022-4912-1563-806e-0a3defa30000" name="HIGH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000023-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000023-4912-1563-806e-0a3defa30000" name="INTEGRATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000024-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000024-4912-1563-806e-0a3defa30000" name="LOW" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000025-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000025-4912-1563-806e-0a3defa30000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000026-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000026-4912-1563-806e-0a3defa30000" name="ORDER_BY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000027-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000027-4912-1563-806e-0a3defa30000" name="R_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000028-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000028-4912-1563-806e-0a3defa30000" name="ROW_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000029-490e-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000029-4912-1563-806e-0a3defa30000" name="VAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m4000002a-490e-1563-806e-0a3defa30000">
+<PresentationColumn mdsid="m80000025-4912-1563-806e-0a3defa30000" name="Award Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000026-490e-1563-806e-0a3defa30000">
+<Alias name="NAME"/>
 </PresentationColumn>
 </PresentationTable>
