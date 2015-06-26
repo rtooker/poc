@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTable mdsid="m4000001d-490e-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-490a-1563-806e-0a3defa30000.xml#mc0000000-490a-1563-806e-0a3defa30000">
-<LogicalColumn mdsid="m40000026-490e-1563-806e-0a3defa30000" name="Award Type" isWriteable="false">
+<LogicalColumn mdsid="m40000026-490e-1563-806e-0a3defa30000" name="Award Type ORP-003" isWriteable="false">
 <AttrDefn mdsid="m40000032-490e-1563-806e-0a3defa30000" name="AD_3900:5141435313209">
 <Expr mdsid="m00000001-01f4-0000-7995-c49600000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>

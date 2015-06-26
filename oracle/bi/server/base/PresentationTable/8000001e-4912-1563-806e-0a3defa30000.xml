@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m8000001e-4912-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-4912-1563-806e-0a3defa30000.xml#m80000000-4912-1563-806e-0a3defa30000">
-<PresentationColumn mdsid="m80000025-4912-1563-806e-0a3defa30000" name="Award Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000026-490e-1563-806e-0a3defa30000">
+<PresentationColumn mdsid="m80000025-4912-1563-806e-0a3defa30000" name="Award Type ORP-003" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001d-490e-1563-806e-0a3defa30000.xml#m40000026-490e-1563-806e-0a3defa30000">
+<Alias name="Award Type"/>
 <Alias name="NAME"/>
 </PresentationColumn>
 </PresentationTable>
