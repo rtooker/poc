@@ -3,7 +3,7 @@
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-3540-c2af00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."ACTIVE_FLG"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."Active Flag ORP-004"]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000001-01f4-0000-3540-c2af00000000-m40000003-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000003-490e-1563-806e-0a3defa30000"/>
 </ObjectRefList>

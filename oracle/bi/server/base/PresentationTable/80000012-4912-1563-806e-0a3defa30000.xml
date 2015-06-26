@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m80000012-4912-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-4912-1563-806e-0a3defa30000.xml#m80000000-4912-1563-806e-0a3defa30000">
-<PresentationColumn mdsid="m80000013-4912-1563-806e-0a3defa30000" name="ACTIVE_FLG" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000003-490e-1563-806e-0a3defa30000">
+<PresentationColumn mdsid="m80000013-4912-1563-806e-0a3defa30000" name="Active Flag ORP-004" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000003-490e-1563-806e-0a3defa30000">
+<Alias name="ACTIVE_FLG"/>
 </PresentationColumn>
 <PresentationColumn mdsid="m80000014-4912-1563-806e-0a3defa30000" name="DATASOURCE_NUM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000004-490e-1563-806e-0a3defa30000">
 </PresentationColumn>
