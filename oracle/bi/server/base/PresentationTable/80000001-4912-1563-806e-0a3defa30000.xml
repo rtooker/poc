@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m80000001-4912-1563-806e-0a3defa30000" name="Fact_WC_REWARD_F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-4912-1563-806e-0a3defa30000.xml#m80000000-4912-1563-806e-0a3defa30000">
-<PresentationColumn mdsid="m80000002-4912-1563-806e-0a3defa30000" name="COMMENTS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000003-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000003-4912-1563-806e-0a3defa30000" name="CONTACT_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000004-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000004-4912-1563-806e-0a3defa30000" name="CREATED_BY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000005-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000005-4912-1563-806e-0a3defa30000" name="CREATED_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000006-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000006-4912-1563-806e-0a3defa30000" name="DATASOURCE_NUM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000007-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000007-4912-1563-806e-0a3defa30000" name="ETL_PROC_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000008-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000008-4912-1563-806e-0a3defa30000" name="INTEGRATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000009-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000009-4912-1563-806e-0a3defa30000" name="LAST_UPD" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000a-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000a-4912-1563-806e-0a3defa30000" name="LAST_UPD_BY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000b-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000b-4912-1563-806e-0a3defa30000" name="ORG_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000c-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000c-4912-1563-806e-0a3defa30000" name="OWN_PARTY_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000d-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000d-4912-1563-806e-0a3defa30000" name="ROW_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000e-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000e-4912-1563-806e-0a3defa30000" name="SRM_AWARD_CATEGORY_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m8000000f-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000f-4912-1563-806e-0a3defa30000" name="SRM_AWARD_DT_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000010-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000010-4912-1563-806e-0a3defa30000" name="SRM_AWARD_SUBTYPE_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000011-490c-1563-806e-0a3defa30000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000011-4912-1563-806e-0a3defa30000" name="SRM_AWARD_TYPE_WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#m80000012-490c-1563-806e-0a3defa30000">
+<PresentationColumn mdsid="mc0000001-495d-1563-806e-0a3defa30000" name="Count of Rewards" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-490c-1563-806e-0a3defa30000.xml#mc0000002-495a-1563-806e-0a3defa30000">
 </PresentationColumn>
 </PresentationTable>
