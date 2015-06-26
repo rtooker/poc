@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTable mdsid="m40000000-490e-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-490a-1563-806e-0a3defa30000.xml#mc0000000-490a-1563-806e-0a3defa30000">
-<LogicalColumn mdsid="m40000003-490e-1563-806e-0a3defa30000" name="ACTIVE_FLG" isWriteable="false">
+<LogicalColumn mdsid="m40000003-490e-1563-806e-0a3defa30000" name="Active Flag ORP-004" isWriteable="false">
 <AttrDefn mdsid="m4000000f-490e-1563-806e-0a3defa30000" name="AD_3900:4791435313209">
 <Expr mdsid="m00000001-01f4-0000-edc5-29df00000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
