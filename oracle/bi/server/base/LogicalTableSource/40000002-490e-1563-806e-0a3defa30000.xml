@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m40000002-490e-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000000-490e-1563-806e-0a3defa30000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-3540-c2af00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."ACTIVE_FLG"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-3540-c2af00000000-m40000003-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000003-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-eb18-a7e400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."ACTIVE_FLG"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-eb18-a7e400000000-m40000001-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000001-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-6002-64c700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."DATASOURCE_NUM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6002-64c700000000-m40000004-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000004-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-93c7-0c2100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."DATASOURCE_NUM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-93c7-0c2100000000-m40000002-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000002-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-cc49-832200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."ETL_PROC_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-cc49-832200000000-m40000005-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000005-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-835c-8a8100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."ETL_PROC_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-835c-8a8100000000-m40000003-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000003-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-1f99-b12e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."HIGH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-1f99-b12e00000000-m40000006-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000006-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-618a-1da600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."HIGH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-618a-1da600000000-m40000004-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000004-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-0f3d-25b600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."INTEGRATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-0f3d-25b600000000-m40000007-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000007-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-c2f5-f44900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."INTEGRATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-c2f5-f44900000000-m40000005-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000005-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-b6e5-b23f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."LOW"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-b6e5-b23f00000000-m40000008-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000008-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-4ba3-b9d900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."LOW"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-4ba3-b9d900000000-m40000006-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000006-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-fd2d-dae200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-fd2d-dae200000000-m40000009-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m40000009-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-a3cd-b60e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-a3cd-b60e00000000-m40000007-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000007-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-d714-3dff00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."ORDER_BY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-d714-3dff00000000-m4000000a-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m4000000a-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-344c-a7d900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."ORDER_BY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-344c-a7d900000000-m40000008-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000008-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-90cf-91ca00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."R_TYPE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-90cf-91ca00000000-m4000000b-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m4000000b-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-1c98-33f800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."R_TYPE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-1c98-33f800000000-m4000000a-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m4000000a-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-7699-c45900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-7699-c45900000000-m4000000c-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m4000000c-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-1262-ffdb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-1262-ffdb00000000-m40000009-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000009-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-b15c-76d700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Basic"."Dim_W_LOV_D_Award_Category"."VAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-b15c-76d700000000-m4000000d-490e-1563-806e-0a3defa30000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-490e-1563-806e-0a3defa30000.xml#m4000000d-490e-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-0f96-62d400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["DWH".""."CRAP01S"."Dim_W_LOV_D_Award_Category"."VAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-0f96-62d400000000-m4000000b-48c8-1563-806e-0a3defa30000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m4000000b-48c8-1563-806e-0a3defa30000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000000-48c8-1563-806e-0a3defa30000">
+</Link>
+<WhereClause mdsid="m00000017-01f4-0000-ea3b-ed6300000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000018-01f4-0000-b708-eaab00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000019-01f4-0000-aceb-a56500000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

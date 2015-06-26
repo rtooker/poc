@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m80000000-4912-1563-806e-0a3defa30000" name="Basic - Fact_WC_REWARD_F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-490a-1563-806e-0a3defa30000.xml#mc0000000-490a-1563-806e-0a3defa30000">
+<RefTables>
+<RefPresentationTable refId="m80000000-4912-1563-806e-0a3defa30000-m80000001-4912-1563-806e-0a3defa30000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000001-4912-1563-806e-0a3defa30000.xml#m80000001-4912-1563-806e-0a3defa30000"/>
+<RefPresentationTable refId="m80000000-4912-1563-806e-0a3defa30000-m80000012-4912-1563-806e-0a3defa30000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000012-4912-1563-806e-0a3defa30000.xml#m80000012-4912-1563-806e-0a3defa30000"/>
+<RefPresentationTable refId="m80000000-4912-1563-806e-0a3defa30000-m8000001e-4912-1563-806e-0a3defa30000" presentationTableRef="/oracle/bi/server/base/PresentationTable/8000001e-4912-1563-806e-0a3defa30000.xml#m8000001e-4912-1563-806e-0a3defa30000"/>
+</RefTables>
+</PresentationCatalog>

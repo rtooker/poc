@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-48bf-1563-806e-0a3defa30000" name="WC_OWN_PARTY_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/00000000-48b6-1563-806e-0a3defa30000.xml#m00000000-48b6-1563-806e-0a3defa30000">
+<PhysicalColumn mdsid="m40000001-48bf-1563-806e-0a3defa30000" name="ACCNT_ID" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-48bf-1563-806e-0a3defa30000" name="ADDR_CREATED_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-48bf-1563-806e-0a3defa30000" name="ADDR_LAST_UPD_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-48bf-1563-806e-0a3defa30000" name="AGRESSO_ID" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-48bf-1563-806e-0a3defa30000" name="CITY" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-48bf-1563-806e-0a3defa30000" name="COG_STATUS" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-48bf-1563-806e-0a3defa30000" name="COMMENTS" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-48bf-1563-806e-0a3defa30000" name="CONTACT_ID" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000009-48bf-1563-806e-0a3defa30000" name="COUNTRY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000a-48bf-1563-806e-0a3defa30000" name="CREATED" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000b-48bf-1563-806e-0a3defa30000" name="CREATED_BY" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000c-48bf-1563-806e-0a3defa30000" name="CREATED_BY_NAME" dataType="VARCHAR" precision="102" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000d-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_ACT_STG" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000e-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_ACT_STG_ST_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000f-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_AGREED_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000010-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_CLOSED_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000011-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_CLOSURE_REASON" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000012-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_JOURNEY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000013-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_PERCENTAGE" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000014-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_PLEDGE_TYPE" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000015-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_RECONF_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000016-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_RECONF_SRC" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000017-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_RECONF_SRC_DESC" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000018-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_SRC_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000019-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_SRC_CD_DESC" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001a-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_START_DT" dataType="DATETIME" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001b-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_STATUS" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001c-48bf-1563-806e-0a3defa30000" name="CURR_LEG_OPP_TARGET_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001d-48bf-1563-806e-0a3defa30000" name="DATASOURCE_NUM_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001e-48bf-1563-806e-0a3defa30000" name="DONATION_RCVD_CNT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001f-48bf-1563-806e-0a3defa30000" name="EMAIL_ADDR" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000020-48bf-1563-806e-0a3defa30000" name="EMP_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000021-48bf-1563-806e-0a3defa30000" name="ETL_PROC_WID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000022-48bf-1563-806e-0a3defa30000" name="EXT_REF_URN" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000023-48bf-1563-806e-0a3defa30000" name="FAX_NUM" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000024-48bf-1563-806e-0a3defa30000" name="FIRST_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000025-48bf-1563-806e-0a3defa30000" name="FIRST_DONATION_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000026-48bf-1563-806e-0a3defa30000" name="FIRST_NET_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000027-48bf-1563-806e-0a3defa30000" name="FNDRSNG_RGSTRTN_CNT" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000028-48bf-1563-806e-0a3defa30000" name="FWS_FIRST_AGREED_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000029-48bf-1563-806e-0a3defa30000" name="FWS_FIRST_OPTY_NO" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002a-48bf-1563-806e-0a3defa30000" name="FWS_FIRST_TARGET_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002b-48bf-1563-806e-0a3defa30000" name="FWS_FIRST_WILL_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002c-48bf-1563-806e-0a3defa30000" name="FWS_FIRST_WILL_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002d-48bf-1563-806e-0a3defa30000" name="FWS_LAST_AGREED_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002e-48bf-1563-806e-0a3defa30000" name="FWS_LAST_OPTY_NO" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002f-48bf-1563-806e-0a3defa30000" name="FWS_LAST_TARGET_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000030-48bf-1563-806e-0a3defa30000" name="FWS_LAST_WILL_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000031-48bf-1563-806e-0a3defa30000" name="FWS_LAST_WILL_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000032-48bf-1563-806e-0a3defa30000" name="FWS_NO_OF_USES" dataType="DOUBLE" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000033-48bf-1563-806e-0a3defa30000" name="FWS_SCHEME_NAME" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000034-48bf-1563-806e-0a3defa30000" name="GA_SUPPRESION_END_DT" dataType="DATETIME" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000035-48bf-1563-806e-0a3defa30000" name="GA_SUPPRESSION_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000036-48bf-1563-806e-0a3defa30000" name="GA_SUPPRESSION_START_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000037-48bf-1563-806e-0a3defa30000" name="HOUSEHOLD_ID" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000038-48bf-1563-806e-0a3defa30000" name="HSHLD_LABEL_NAME" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000039-48bf-1563-806e-0a3defa30000" name="INTEGRATION_ID" dataType="VARCHAR" precision="80" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003a-48bf-1563-806e-0a3defa30000" name="LAST_ACT_CATEGORY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003b-48bf-1563-806e-0a3defa30000" name="LAST_ACT_NAME" dataType="VARCHAR" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003c-48bf-1563-806e-0a3defa30000" name="LAST_ACT_SOURCE_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003d-48bf-1563-806e-0a3defa30000" name="LAST_ACT_SOURCE_DESC" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003e-48bf-1563-806e-0a3defa30000" name="LAST_ACT_START_DT" dataType="DATETIME" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000003f-48bf-1563-806e-0a3defa30000" name="LAST_ACT_STATUS" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000040-48bf-1563-806e-0a3defa30000" name="LAST_ACT_SUB_CATEGORY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000041-48bf-1563-806e-0a3defa30000" name="LAST_ACT_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000042-48bf-1563-806e-0a3defa30000" name="LAST_CASH_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000043-48bf-1563-806e-0a3defa30000" name="LAST_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000044-48bf-1563-806e-0a3defa30000" name="LAST_DONATION_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000045-48bf-1563-806e-0a3defa30000" name="LAST_NET_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000046-48bf-1563-806e-0a3defa30000" name="LEG_REGION" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000047-48bf-1563-806e-0a3defa30000" name="LEG_REGIONAL_CANV_FULL_NAME" dataType="VARCHAR" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000048-48bf-1563-806e-0a3defa30000" name="LST_AVM_FUND_REG_FRST_CNTCT_DT" dataType="DATETIME" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000049-48bf-1563-806e-0a3defa30000" name="LST_FUND_REG_FRST_CNTCT_DT" dataType="DATETIME" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004a-48bf-1563-806e-0a3defa30000" name="LST_FUND_REG_INCM_CHS_DT" dataType="DATETIME" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004b-48bf-1563-806e-0a3defa30000" name="MACRO_SEGMENT" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004c-48bf-1563-806e-0a3defa30000" name="MAILING_SUPPRESION_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004d-48bf-1563-806e-0a3defa30000" name="MAILING_SUPPRESION_END_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004e-48bf-1563-806e-0a3defa30000" name="MAILING_SUPPRESSION_START_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004f-48bf-1563-806e-0a3defa30000" name="MAX_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000050-48bf-1563-806e-0a3defa30000" name="MAX_DONATION_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000051-48bf-1563-806e-0a3defa30000" name="MAX_NET_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000052-48bf-1563-806e-0a3defa30000" name="MAX_NET_DONATION_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000053-48bf-1563-806e-0a3defa30000" name="MEMBER_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000054-48bf-1563-806e-0a3defa30000" name="MGA_FLAG_CURR" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000055-48bf-1563-806e-0a3defa30000" name="MGA_FLAG_HIST" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000056-48bf-1563-806e-0a3defa30000" name="MGA_THANKYOU_END_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000057-48bf-1563-806e-0a3defa30000" name="MOBILE_NUM" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000058-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_CATEGORY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000059-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_NAME" dataType="VARCHAR" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005a-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_SOURCE_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005b-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_SOURCE_DESC" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005c-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_START_DT" dataType="DATETIME" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005d-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_STATUS" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005e-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_SUB_CATEGORY" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005f-48bf-1563-806e-0a3defa30000" name="NEXT_OPEN_ACT_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000060-48bf-1563-806e-0a3defa30000" name="NON_TAX_PAYER_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000061-48bf-1563-806e-0a3defa30000" name="NON_TAX_PAYER_END_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000062-48bf-1563-806e-0a3defa30000" name="NON_TAX_PAYER_START_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000063-48bf-1563-806e-0a3defa30000" name="ORG_FNDRSNG_GRP_CURR_LVL" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000064-48bf-1563-806e-0a3defa30000" name="ORG_INDUSTRY" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000065-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_JOB_TITLE" dataType="VARCHAR" precision="75" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000066-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_LABL_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000067-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_NAME" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000068-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_PREFIX" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000069-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_PREF_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006a-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_SALUTATION" dataType="VARCHAR" precision="255" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006b-48bf-1563-806e-0a3defa30000" name="ORG_PRMRY_CONTACT_SUFFIX" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006c-48bf-1563-806e-0a3defa30000" name="ORG_SUBTYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006d-48bf-1563-806e-0a3defa30000" name="ORG_TYPE" dataType="VARCHAR" precision="32" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006e-48bf-1563-806e-0a3defa30000" name="ORG_TYPE_I" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000006f-48bf-1563-806e-0a3defa30000" name="OU_TYPE_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000070-48bf-1563-806e-0a3defa30000" name="OWN_PARTY_NAME" dataType="VARCHAR" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000071-48bf-1563-806e-0a3defa30000" name="OWN_PARTY_TYPE" dataType="VARCHAR" precision="12" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000072-48bf-1563-806e-0a3defa30000" name="OWN_PARTY_URN" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000073-48bf-1563-806e-0a3defa30000" name="PHONE_NUM" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000074-48bf-1563-806e-0a3defa30000" name="PRMRY_CNVSR_FULL_NAME" dataType="VARCHAR" precision="102" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000075-48bf-1563-806e-0a3defa30000" name="PRMRY_CNVSR_LOGIN" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000076-48bf-1563-806e-0a3defa30000" name="PRMRY_CNVSR_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000077-48bf-1563-806e-0a3defa30000" name="PRMRY_CNVSR_TEAM" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000078-48bf-1563-806e-0a3defa30000" name="PRSPCT_FLG_CURR" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000079-48bf-1563-806e-0a3defa30000" name="REGION_WID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007a-48bf-1563-806e-0a3defa30000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007b-48bf-1563-806e-0a3defa30000" name="SOLICITOR_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007c-48bf-1563-806e-0a3defa30000" name="SOLICITOR_SCHEME_END_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007d-48bf-1563-806e-0a3defa30000" name="SOLICITOR_SCHEME_NAME" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007e-48bf-1563-806e-0a3defa30000" name="SOLICITOR_SCHEME_NUM" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000007f-48bf-1563-806e-0a3defa30000" name="SOLICITOR_SCHEME_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000080-48bf-1563-806e-0a3defa30000" name="SOLICITOR_SCHEME_STATUS" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000081-48bf-1563-806e-0a3defa30000" name="SP_FLAG_CURR" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000082-48bf-1563-806e-0a3defa30000" name="SP_FLAG_HIST" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000083-48bf-1563-806e-0a3defa30000" name="SSPCT_FLG_CURR" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000084-48bf-1563-806e-0a3defa30000" name="STATUS_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000085-48bf-1563-806e-0a3defa30000" name="ST_ADDRESS" dataType="VARCHAR" precision="200" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000086-48bf-1563-806e-0a3defa30000" name="SUPP_DEATH_DT" dataType="DATETIME" precision="200" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000087-48bf-1563-806e-0a3defa30000" name="SUPP_DEATH_NOTIF_DT" dataType="DATETIME" precision="200" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000088-48bf-1563-806e-0a3defa30000" name="SUPP_LABEL_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000089-48bf-1563-806e-0a3defa30000" name="SUPP_ORAL_GAD_DECL_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008a-48bf-1563-806e-0a3defa30000" name="SUPP_ORAL_GAD_END_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008b-48bf-1563-806e-0a3defa30000" name="SUPP_ORAL_GAD_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008c-48bf-1563-806e-0a3defa30000" name="SUPP_ORAL_GAD_STATUS_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008d-48bf-1563-806e-0a3defa30000" name="SUP_BIRTH_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008e-48bf-1563-806e-0a3defa30000" name="SUP_FST_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000008f-48bf-1563-806e-0a3defa30000" name="SUP_LAST_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000090-48bf-1563-806e-0a3defa30000" name="SUP_SEX_MF_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000091-48bf-1563-806e-0a3defa30000" name="SUP_SEX_MF_CD_I" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000092-48bf-1563-806e-0a3defa30000" name="SUP_X_SRM_NICK_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000093-48bf-1563-806e-0a3defa30000" name="SUP_X_SRM_PER_TITLE" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000094-48bf-1563-806e-0a3defa30000" name="SUP_X_SRM_PER_TITLE_SUFFIX" dataType="VARCHAR" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000095-48bf-1563-806e-0a3defa30000" name="SUP_X_SRM_YEAR_OF_BIRTH" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000096-48bf-1563-806e-0a3defa30000" name="TOTAL_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000097-48bf-1563-806e-0a3defa30000" name="TOTAL_DONATION_CNT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000098-48bf-1563-806e-0a3defa30000" name="TOTAL_GIFTAID_AMT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000099-48bf-1563-806e-0a3defa30000" name="TOTAL_GIFTAID_AMT_SP" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009a-48bf-1563-806e-0a3defa30000" name="TOTAL_INCOME" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009b-48bf-1563-806e-0a3defa30000" name="TOTAL_NET_DONATION_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009c-48bf-1563-806e-0a3defa30000" name="TOTAL_ORDER_AMT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009d-48bf-1563-806e-0a3defa30000" name="TOTAL_ORDER_GROSS_AMT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009e-48bf-1563-806e-0a3defa30000" name="TOTAL_ORDER_GROSS_AMT_SP" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000009f-48bf-1563-806e-0a3defa30000" name="TOTAL_PAY_AMT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a0-48bf-1563-806e-0a3defa30000" name="TOTAL_PAY_AMT_SP" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a1-48bf-1563-806e-0a3defa30000" name="TOTAL_VF_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a2-48bf-1563-806e-0a3defa30000" name="VOL_MAX_END_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a3-48bf-1563-806e-0a3defa30000" name="VOL_MAX_ESTIMATED_HRS_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a4-48bf-1563-806e-0a3defa30000" name="VOL_MIN_SERVICE_START_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a5-48bf-1563-806e-0a3defa30000" name="VOL_MIN_START_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a6-48bf-1563-806e-0a3defa30000" name="VOL_POTENTIAL_FLAG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a7-48bf-1563-806e-0a3defa30000" name="VOL_STATUS" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a8-48bf-1563-806e-0a3defa30000" name="WEBSITE_ADDR" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000a9-48bf-1563-806e-0a3defa30000" name="X_LSD_FLAG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000aa-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ab-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_END_DT" dataType="DATETIME" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ac-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_PERC_PLEDGED" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ad-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_RECONF_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ae-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_RECONF_SOURCE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000af-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_SOURCE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b0-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_STATUS" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b1-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_TOTAL_PLEDGED" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b2-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_PLDG_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b3-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_RESP_CODE_LVL_1" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b4-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_RESP_CODE_LVL_1_DESC" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b5-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_RESP_END_DT" dataType="DATETIME" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b6-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_RESP_SOURCE" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b7-48bf-1563-806e-0a3defa30000" name="X_LST_OPN_RESP_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b8-48bf-1563-806e-0a3defa30000" name="X_SRM_ACT_PLN_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000b9-48bf-1563-806e-0a3defa30000" name="X_SRM_ACT_PLN_TMPL" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ba-48bf-1563-806e-0a3defa30000" name="X_SRM_ADDR_LINE_2" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000bb-48bf-1563-806e-0a3defa30000" name="X_SRM_ADDR_LINE_3" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000bc-48bf-1563-806e-0a3defa30000" name="X_SRM_ADDR_LINE_4" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000bd-48bf-1563-806e-0a3defa30000" name="X_SRM_CHRSD_ADDR" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000be-48bf-1563-806e-0a3defa30000" name="X_SRM_COUNTY" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000bf-48bf-1563-806e-0a3defa30000" name="X_SRM_DSTRCT_CNVSR_FULL_NAME" dataType="VARCHAR" precision="101" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c0-48bf-1563-806e-0a3defa30000" name="X_SRM_DSTRCT_REGION" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c1-48bf-1563-806e-0a3defa30000" name="X_SRM_DSTRCT_REGION_WID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c2-48bf-1563-806e-0a3defa30000" name="X_SRM_MERGED_DT" dataType="DATETIME" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c3-48bf-1563-806e-0a3defa30000" name="X_SRM_MOSAIC_GROUP" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c4-48bf-1563-806e-0a3defa30000" name="X_SRM_MOSAIC_TYPE" dataType="VARCHAR" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c5-48bf-1563-806e-0a3defa30000" name="X_SRM_ORG_DATE_STARTED" dataType="DATETIME" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c6-48bf-1563-806e-0a3defa30000" name="X_SRM_ORG_FNDRSNG_GRP_STRT_DT" dataType="DATETIME" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c7-48bf-1563-806e-0a3defa30000" name="X_SRM_POST_AREA" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c8-48bf-1563-806e-0a3defa30000" name="X_SRM_POST_DIST" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000c9-48bf-1563-806e-0a3defa30000" name="X_SRM_POST_SECTOR" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ca-48bf-1563-806e-0a3defa30000" name="X_SRM_SALUTATION" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000cb-48bf-1563-806e-0a3defa30000" name="X_SRM_SRC_CD" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000cc-48bf-1563-806e-0a3defa30000" name="X_SRM_STW_END_DT" dataType="DATETIME" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000cd-48bf-1563-806e-0a3defa30000" name="X_SRM_STW_ENGAGEMENT" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000ce-48bf-1563-806e-0a3defa30000" name="X_SRM_STW_REASON" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000cf-48bf-1563-806e-0a3defa30000" name="X_SRM_STW_START_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000d0-48bf-1563-806e-0a3defa30000" name="X_SRM_STW_STATUS" dataType="VARCHAR" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m400000d1-48bf-1563-806e-0a3defa30000" name="ZIPCODE" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

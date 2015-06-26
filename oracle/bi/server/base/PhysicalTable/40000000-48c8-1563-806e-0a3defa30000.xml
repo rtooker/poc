@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-48c8-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/00000000-48b6-1563-806e-0a3defa30000.xml#m00000000-48b6-1563-806e-0a3defa30000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000000-48bc-1563-806e-0a3defa30000">
+<PhysicalColumn mdsid="m40000001-48c8-1563-806e-0a3defa30000" name="ACTIVE_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000001-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-48c8-1563-806e-0a3defa30000" name="DATASOURCE_NUM_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000002-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-48c8-1563-806e-0a3defa30000" name="ETL_PROC_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000003-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-48c8-1563-806e-0a3defa30000" name="HIGH" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000004-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-48c8-1563-806e-0a3defa30000" name="INTEGRATION_ID" dataType="VARCHAR" precision="30" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000005-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-48c8-1563-806e-0a3defa30000" name="LOW" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000006-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-48c8-1563-806e-0a3defa30000" name="NAME" dataType="VARCHAR" precision="50" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000007-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-48c8-1563-806e-0a3defa30000" name="ORDER_BY" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000008-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000009-48c8-1563-806e-0a3defa30000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc0000009-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000a-48c8-1563-806e-0a3defa30000" name="R_TYPE" dataType="VARCHAR" precision="30" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc000000a-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000b-48c8-1563-806e-0a3defa30000" name="VAL" dataType="VARCHAR" precision="30" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-48bc-1563-806e-0a3defa30000.xml#mc000000b-48bc-1563-806e-0a3defa30000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m80000000-48fb-1563-806e-0a3defa30000" name="Dim_W_LOV_D_Award_Category_Key">
+<RefColumns>
+<RefColumn refId="m80000000-48fb-1563-806e-0a3defa30000-m40000009-48c8-1563-806e-0a3defa30000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-48c8-1563-806e-0a3defa30000.xml#m40000009-48c8-1563-806e-0a3defa30000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>
